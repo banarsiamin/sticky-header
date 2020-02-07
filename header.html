@@ -1,0 +1,10 @@
+<style>
+.stickyNtier {position: fixed !important;top: 0!important;}
+</style>
+<script>
+jQuery(window).scroll(function(){
+  var sticky = jQuery('#main-header'),
+      scroll = jQuery(window).scrollTop();
+  if (scroll >= 100) sticky.addClass('stickyNtier');
+  else sticky.removeClass('stickyNtier');
+});</script>
