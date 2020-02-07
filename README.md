@@ -3,12 +3,23 @@
 #and replace your header sticky id(#main-header')
 #<b>
 #<style>
+  
 #.stickyNtier {position: fixed !important;top: 0!important;}
+
 #</style></b>
-#<script>
-jQuery(window).scroll(function(){
-  var sticky = jQuery('#main-header'),
-      scroll = jQuery(window).scrollTop();
-  if (scroll >= 100) sticky.addClass('stickyNtier');
-  else sticky.removeClass('stickyNtier');
-});</script>
+
+
+#<b><script>
+  <br>
+jQuery(window).scroll(function(){<br>
+
+  var sticky = jQuery('#main-header'),<br>
+  
+      scroll = jQuery(window).scrollTop();<br>
+      
+  if (scroll >= 100) sticky.addClass('stickyNtier');<br>
+  
+  else sticky.removeClass('stickyNtier');<br>
+  
+});</script><br>
+</b>
